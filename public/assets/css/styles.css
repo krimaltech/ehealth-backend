@@ -1,0 +1,204 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, p {
+    padding: 0;
+    margin: 0 0 15px 0
+}
+
+.text-muted {
+    color: #6c757d!important;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #DFDFDF;
+}
+
+.row {
+    display: flex;
+    flex-wrap:wrap;
+    box-sizing: border-box;
+
+}
+
+.col-12 {
+    flex-basis: 100%; 
+}
+
+.col-11 {
+    flex-basis: 81.666%;
+}
+
+.col-10 {
+    flex-basis: 73.3332%;
+}
+
+.col-9 {
+    flex-basis: 64.999%;
+}
+
+.col-8{
+    flex-basis: 58.666%;
+}
+
+.col-7 {
+    flex-basis: 50.3333%;
+    flex-grow: 3;
+}
+
+.col-6 {
+    flex-basis: 50%;
+}
+
+.col-5 {
+    flex-basis: 33.666%;
+    flex-grow: 1;
+}
+
+.col-4 {
+    flex-basis: 30.33%;
+}
+
+.col-3 {
+    flex-basis: 25%;
+}
+
+.col-2 {
+    flex-basis: 16.667%;
+}  
+
+.col-1 {
+    flex-basis: 8.333%;
+}
+
+.d-flex {display:flex} .flex-column{flex-direction: column;} .align-items-end {align-items: end;}
+.justify-content-end {justify-content: flex-end;} .align-items-center {align-items: center;}
+
+.py-1 {padding-top:4px;padding-bottom:4px;} .py-2 {padding-top:6px;padding-bottom:6px;} .py-3 {padding-top:1rem;padding-bottom:1rem;} .py-4 {padding-top:20px;padding-bottom:20px;} .py-5 {padding-top:35px;padding-bottom:35px;}
+.px-1 {padding-left: 4px; padding-right: 4px;} .px-2 {padding-left: 6px; padding-right: 6px;} .px-3 {padding-left: 10px; padding-right: 10px;} .px-4 {padding-left: 20px; padding-right: 20px;} .px-5 {padding-left: 3rem; padding-right: 3rem;}
+
+.mt-3 {margin-top: 1rem;}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: .4rem;
+    padding: 6px 12px;
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.btn-primary {
+    background: #007BFF;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background: #2e8ff8;
+}
+
+.table {
+    min-width: 100%;
+}
+
+
+
+.gd-mail-container {
+    background-color: rgb(245, 245, 245);
+}
+
+.gd-mail-container .card {
+    width: 70%;
+    margin: auto;
+}
+
+.gd-mail-container .card .uniform-padding {
+    padding: 40px;
+}
+
+.gd-mail-container .company-logo {
+    height: 100px;
+    overflow: hidden;
+}
+
+.company-logo img {
+    height: 100%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+.gd-mail-container .mail-qr-code {
+    background:#C6DFF6;
+}
+
+.gd-mail-container .mail-qr-code .qr-code {
+    width: 100%;
+    overflow: hidden;
+}
+
+.qr-code img {
+    width: 60%;
+    aspect-ratio: 1/1;
+}
+
+.gd-mail-container .mail-order-details table {
+    border-bottom: 2px solid #F8F8F8;
+}
+
+.gd-mail-container .mail-order-details .order-items .order-item {
+    box-sizing: border-box;
+    border-bottom: 1px solid #D7D7D7;
+    padding: 24px 15px;
+}
+
+.gd-mail-container .mail-order-details .order-items .order-item .product-image{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.product-image img {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.gd-mail-container .mail-order-details .order-summary {
+    border-bottom: 1px solid #D7D7D7;
+}
+
+.gd-mail-container .mail-order-details .order-summary .summary-item {
+    margin-bottom: 10px;
+}
+
+.gd-mail-container .mail-order-details .order-summary .summary-item:last-child {
+    border-top: 3px solid #F8F8F8;
+}
+
+.gd-mail-container .mail-order-details .order-summary .summary-item .summary-label {
+    margin-right: 40px;
+}
+
+.gd-mail-container .order-footer {
+    background:#C6DFF6;
+}
+
+.company-txt {
+    color: #045AA7;
+    font-size: 1.2em;
+}

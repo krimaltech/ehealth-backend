@@ -1,0 +1,82 @@
+
+
+.gd-mail-container .card {
+    width: 70%;
+    margin: auto;
+}
+
+.gd-mail-container .card .uniform-padding {
+    padding: 40px;
+}
+
+.gd-mail-container .company-logo {
+    height: 100px;
+    overflow: hidden;
+}
+
+.company-logo img {
+    height: 100%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+.gd-mail-container .mail-qr-code {
+    background:#C6DFF6;
+}
+
+.gd-mail-container .mail-qr-code .qr-code {
+    width: 100%;
+    overflow: hidden;
+}
+
+.qr-code img {
+    width: 60%;
+    aspect-ratio: 1/1;
+}
+
+.gd-mail-container .mail-order-details table {
+    border-bottom: 2px solid #F8F8F8;
+}
+
+.gd-mail-container .mail-order-details .order-items .order-item {
+    box-sizing: border-box;
+    border-bottom: 1px solid #D7D7D7;
+    padding: 24px 15px;
+}
+
+.gd-mail-container .mail-order-details .order-items .order-item .product-image{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.product-image img {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.gd-mail-container .mail-order-details .order-summary {
+    border-bottom: 1px solid #D7D7D7;
+}
+
+.gd-mail-container .mail-order-details .order-summary .summary-item {
+    margin-bottom: 10px;
+}
+
+.gd-mail-container .mail-order-details .order-summary .summary-item:last-child {
+    border-top: 3px solid #F8F8F8;
+}
+
+.gd-mail-container .mail-order-details .order-summary .summary-item .summary-label {
+    margin-right: 40px;
+}
+
+.gd-mail-container .order-footer {
+    background:#C6DFF6;
+}
+
+.company-txt {
+    color: #045AA7;
+    font-size: 1.2em;
+}
