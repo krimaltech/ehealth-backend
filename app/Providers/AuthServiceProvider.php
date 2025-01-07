@@ -32,23 +32,23 @@ class AuthServiceProvider extends ServiceProvider
         Passport::tokensExpireIn(now()->addMinutes(60));
         Passport::refreshTokensExpireIn(now()->addMinutes(60));
         Passport::personalAccessTokensExpireIn(now()->addMinutes(60));
-    //     $roles = Role::all();
-    //     $sub_roles = SubRole::all();
+        $roles = Role::all();
+        $sub_roles = SubRole::all();
 
-    //     /* define a user role */
-    //     foreach ($roles as $role) {
-    //         Gate::define($role->role_type, function ($user) use($role) {
-    //             foreach ($user->roles as $key) {
-    //                 return $key->id == $role->id;
-    //             }
-    //         });
-    //     }
+        /* define a user role */
+        foreach ($roles as $role) {
+            Gate::define($role->role_type, function ($user) use($role) {
+                foreach ($user->roles as $key) {
+                    return $key->id == $role->id;
+                }
+            });
+        }
 
-    //     /* define a user sub role */
-    //     foreach ($sub_roles as $subrole) {
-    //         Gate::define($subrole->subrole, function ($user) use($subrole) {
-    //             return $user->subrole == $subrole->id;
-    //         });
-    //     }
+        /* define a user sub role */
+        foreach ($sub_roles as $subrole) {
+            Gate::define($subrole->subrole, function ($user) use($subrole) {
+                return $user->subrole == $subrole->id;
+            });
+        }
     }
 }
